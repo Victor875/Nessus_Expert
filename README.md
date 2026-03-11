@@ -27,7 +27,7 @@ Para replicar este entorno en Windows 11, sigo estos pasos:
 
 4. Ejemplo de uso: Auditoría de Red Local
 
-Como ejemplo práctico de uso, configuro un Basic Network Scan.
+Como ejemplo práctico de uso, configuro un escaneo de red básico.
 - Metodología: selecciono la plantilla básica para maximizar la compatibilidad y el descubrimiento de servicios.
 - Objetivos: configuro mis activos locales (router y host principal), manteniéndome dentro del límite de 32 hosts de mi licencia.
 - Ejecución: inicio el escaneo y monitorizo en tiempo real la pestaña de Vulnerabilities para observar la criticidad de los servicios detectados.
