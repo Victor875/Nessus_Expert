@@ -28,19 +28,22 @@ Para replicar este entorno de auditoría en **Windows 11**, sigo estos pasos de 
 
     * **Mediante PowerShell (Recomendado):** abro una terminal como administrador y ejecuto el comando:
         `Get-Service -Name "Tenable Nessus"`
+
+       ![Estado del servicio Tenable Nessus](service_status.jpg)
     * **Mediante la interfaz gráfica:** presiono `Win + R`, escribo `services.msc` y localizo el servicio llamado **Tenable Nessus**. Su estado debe figurar como **"En ejecución"** (Running).
 3. **Activación de la instancia:** accedo a la interfaz web a través de la dirección `https://localhost:8834`. Utilizo mi clave de licencia **Trial** (limitada a 32 hosts) para completar el registro y activar todas las capacidades de la versión Expert.
 4. **Actualización crítica de Plugins:** una vez activado, espero a que la herramienta descargue e instale las últimas definiciones de vulnerabilidades. Considero este paso fundamental para garantizar que los resultados del escaneo sean precisos y detecten las amenazas más recientes.
 
+## Caso Práctico: Auditoría Avanzada con Credenciales
 
-## Ejemplo de uso: auditoría de red local
+Para profundizar en las capacidades de **Nessus Expert**, he realizado una auditoría de "Caja Blanca" siguiendo los estándares de hardening de la industria. 
 
-Como ejemplo práctico de uso, configuro un escaneo de red básico.
-* **Metodología:** selecciono la plantilla básica para maximizar la compatibilidad y el descubrimiento de servicios.
-* **Objetivos:** configuro mis activos locales (router y host principal), manteniéndome dentro del límite de 32 hosts de mi licencia.
-* **Ejecución:** inicio el escaneo y monitorizo en tiempo real la pestaña de Vulnerabilities para observar la criticidad de los servicios detectados.
+* **Metodología detallada:** puedes consultar el paso a paso técnico, la configuración de Windows y los resultados en mi guía especializada:
+* 👉 **[Guía de Auditoría con Credenciales y Compliance](./docs/AUDITORIA_AVANZADA.md)**
 
-## Requisitos del Sistema (Entorno de Laboratorio)
+> **Nota:** esta prueba demuestra la transición de un escaneo de red básico a una auditoría de cumplimiento profesional.
+
+## Requisitos del Sistema (Entorno de Laboratorio desde una VM)
 
 Para asegurar un rendimiento óptimo de **Nessus Expert** durante los escaneos intensivos en mi máquina local, valido los siguientes requisitos mínimos:
 
@@ -66,7 +69,7 @@ Este proyecto consolida mi capacidad para desplegar soluciones de seguridad comp
 
 ---
 
-## Contacto y Portfolio
+## Contacto
 
 Si tienes alguna pregunta sobre este proyecto o quieres conectar para hablar sobre ciberseguridad y gestión de vulnerabilidades, no dudes en contactarme:
 
