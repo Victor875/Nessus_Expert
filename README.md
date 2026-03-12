@@ -27,12 +27,13 @@ Para replicar este entorno de auditoría en **Windows 11**, sigo estos pasos de 
 2. **Ejecución del instalador:** ejecuto el archivo `.msi` y sigo las instrucciones del asistente. Durante este proceso, verifico que el servicio `nessusd` se inicie correctamente. Para comprobar el estado del servicio en Windows 11, utilizo uno de los siguientes métodos:
 
     * **Mediante PowerShell (Recomendado):** abro una terminal como administrador y ejecuto el comando:
-        `Get-Service -Name "Tenable Nessus"`
-
-       ![Estado del servicio Tenable Nessus](img/Documentación/service_status.jpg)
+      ```powershell
+       Get-Service -Name "Tenable Nessus"
+      ```
+      ![Estado del servicio Tenable Nessus](img/Documentación/service_status.jpg)
     * **Mediante la interfaz gráfica:** presiono `Win + R`, escribo `services.msc` y localizo el servicio llamado **Tenable Nessus**. Su estado debe figurar como **"En ejecución"** (Running).
-3. **Activación de la instancia:** accedo a la interfaz web a través de la dirección `https://localhost:8834`. Utilizo mi clave de licencia **Trial** (limitada a 32 hosts) para completar el registro y activar todas las capacidades de la versión Expert.
-4. **Actualización crítica de Plugins:** una vez activado, espero a que la herramienta descargue e instale las últimas definiciones de vulnerabilidades. Considero este paso fundamental para garantizar que los resultados del escaneo sean precisos y detecten las amenazas más recientes.
+4. **Activación de la instancia:** accedo a la interfaz web a través de la dirección `https://localhost:8834`. Utilizo mi clave de licencia **Trial** (limitada a 32 hosts) para completar el registro y activar todas las capacidades de la versión Expert.
+5. **Actualización crítica de Plugins:** una vez activado, espero a que la herramienta descargue e instale las últimas definiciones de vulnerabilidades. Considero este paso fundamental para garantizar que los resultados del escaneo sean precisos y detecten las amenazas más recientes.
 
 ## Caso Práctico: Auditoría Avanzada con Credenciales
 
