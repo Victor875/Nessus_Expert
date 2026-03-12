@@ -66,3 +66,15 @@ A diferencia del escaneo básico, esta prueba revela vulnerabilidades críticas 
 * Parches de seguridad (KBs) faltantes en el sistema operativo.
 * Configuraciones de red inseguras a nivel de protocolo (ej. NetBIOS activo).
 * Software de terceros desactualizado con exploits conocidos.
+
+## 4. Conclusión de la Práctica
+
+La ejecución de esta auditoría avanzada bajo el estándar **CIS v4.0.0** me ha permitido extraer las siguientes conclusiones fundamentales sobre la seguridad de activos:
+
+* **Visibilidad profunda:** un escaneo sin credenciales es solo una inspección superficial. Al proporcionar acceso autenticado, he logrado que Nessus identifique vulnerabilidades a nivel de registro y parches de software específicos que de otro modo habrían permanecido invisibles.
+* **Hardening basado en estándares:** el uso de benchmarks internacionales como **CIS** elimina la subjetividad en la seguridad. Ya no se trata de "creer" que el equipo es seguro, sino de medirlo contra un estándar de oro utilizado por las mejores empresas del mundo.
+* **Diferencia entre vulnerabilidad y cumplimiento:** durante la práctica, he comprobado que un sistema puede estar "parcheado" (sin vulnerabilidades críticas de software) pero seguir siendo inseguro debido a malas configuraciones de red o de políticas de usuario (fallos de compliance).
+* **Valor para la organización:** este tipo de auditorías periódicas permiten establecer una línea base de seguridad real, facilitando la toma de decisiones para futuras inversiones en ciberseguridad y garantizando que los activos cumplen con las normativas vigentes.
+
+---
+[Volver a la documentación](../Documentación.md)
