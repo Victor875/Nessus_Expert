@@ -12,7 +12,7 @@ Nessus Expert es una de las herramienta de escaneo de vulnerabilidades más conf
 
 He seleccionado la versión **Expert** frente a la Professional o Essentials por su capacidad de ir más allá de la red tradicional. Como estoy documentando una auditoría integral, necesito las funciones exclusivas que esta versión ofrece.
 
-### 📊 Comparativa Técnica: Nessus Expert (Análisis General)
+### 📊 Comparativa Técnica (Análisis General)
 
 | Característica | ✅ Ventajas (Pros) | ❌ Desventajas (Contras) |
 | :--- | :--- | :--- |
