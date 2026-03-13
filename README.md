@@ -1,6 +1,22 @@
 # 🛡️Nessus Expert
 > En esta sección detallo los motivos por los cuales he seleccionado Nessus Expert para este laboratorio, destacando sus capacidades de visibilidad sobre la superficie de ataque moderna
 
+---
+
+## 📑 Índice de Contenidos
+* [📝 Introducción](#-introducción)
+* [¿Qué es Nessus Expert?](#qué-es-nessus-expert)
+* [¿Por qué utilizar Nessus Expert?](#por-qué-utilizar-nessus-expert)
+* [📊 Comparativa Técnica](#-comparativa-técnica-análisis-general)
+* [🛠️ Guía de Instalación y Configuración](#️-guía-de-instalación-y-configuración)
+* [🎯 Caso Práctico: Auditoría Avanzada](#-caso-práctico-auditoría-avanzada-con-credenciales)
+* [💻 Requisitos del Sistema](#-requisitos-del-sistema-entorno-de-laboratorio-desde-una-vm)
+* [💡 Conclusiones y Aprendizajes](#-conclusiones-y-aprendizajes)
+* [🤝 Contacto](#-contacto)
+* [⚖️ Licencia de Uso](#️-licencia-de-uso)
+
+---
+
 ## 📝 Introducción
 
 Realizo una auditoría de seguridad utilizando Nessus Expert sobre un entorno controlado en Windows 11. Mi objetivo es demostrar la capacidad de identificar, clasificar y priorizar vulnerabilidades tanto en activos internos como en la superficie de ataque externa. Esta práctica simula un flujo de trabajo real de un analista de ciberseguridad, desde la fase de reconocimiento hasta la propuesta de remediación.
